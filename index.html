@@ -1,0 +1,825 @@
+<!DOCTYPE html><script type="application/json" id="cowork-artifact-meta">
+{
+  "name": "Hope Smile Partner Recruit Lp",
+  "schemaVersion": 1,
+  "description": "HOPEスマイルパートナー（さいたま市浦和区）の小児訪問看護師募集LP。子育てから復職したい40代女性をターゲットに、不登校・情緒・発達ケアへの訪問看護を訴求するランディングページ。画像6枚をbase64で埋め込んだ単体版。"
+}
+</script>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="HOPE Cotoco（コトコ）の小児訪問看護師（正社員）募集。不登校・情緒・発達に困難をかかえる子どもたちへ。日勤のみ・土日祝休み・オンコールなし。さいたま市浦和区。" />
+<title>子どもの心に寄り添う、訪問看護師募集｜HOPE Cotoco（コトコ）｜さいたま市浦和区</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=M+PLUS+Rounded+1c:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --c-primary:#F8B500;        /* 太陽の黄色 */
+    --c-primary-dark:#E89A00;
+    --c-coral:#FF7F6B;          /* やわらかコーラル */
+    --c-pink:#FFD9D2;
+    --c-blue:#7EC8E3;           /* 空のブルー */
+    --c-mint:#C7E9CE;
+    --c-ink:#2A3548;
+    --c-ink-soft:#5A6478;
+    --c-bg:#FFFAF3;
+    --c-bg-soft:#FFF1E5;
+    --c-card:#ffffff;
+    --c-line:#F5E6D2;
+    --radius-lg:28px;
+    --radius-md:18px;
+    --shadow-sm:0 4px 18px rgba(42,53,72,.06);
+    --shadow-md:0 18px 44px rgba(42,53,72,.10);
+    --maxw:1100px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic UI",sans-serif;
+    color:var(--c-ink);
+    background:var(--c-bg);
+    line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ===== Header ===== */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,250,243,.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--c-line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{font-family:"M PLUS Rounded 1c";font-weight:800;font-size:18px;letter-spacing:.02em}
+  .brand .dot{color:var(--c-coral)}
+  .nav-cta{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--c-coral);color:#fff;text-decoration:none;
+    padding:10px 20px;border-radius:999px;font-weight:800;font-size:14px;
+    transition:.2s;
+  }
+  .nav-cta:hover{background:var(--c-ink);transform:translateY(-1px)}
+
+  /* ===== Hero ===== */
+  .hero{
+    position:relative;padding:56px 0 80px;overflow:hidden;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background:
+      radial-gradient(75% 60% at 92% 8%, #FFE7A2 0%, transparent 60%),
+      radial-gradient(60% 50% at 5% 95%, #FFCBC0 0%, transparent 60%),
+      radial-gradient(50% 40% at 50% 100%, #E5F4FA 0%, transparent 70%);
+    z-index:0;
+  }
+  .hero .container{position:relative;z-index:1}
+  .hero-grid{
+    display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;
+  }
+  .badge{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--c-ink);color:#fff;
+    font-weight:800;font-size:13px;letter-spacing:.06em;
+    padding:8px 18px;border-radius:999px;margin-bottom:22px;
+  }
+  .badge::before{
+    content:"";width:8px;height:8px;border-radius:50%;background:var(--c-primary);
+    box-shadow:0 0 0 4px rgba(248,181,0,.25);
+  }
+  h1.hero-title{
+    font-family:"M PLUS Rounded 1c";font-weight:800;
+    font-size:clamp(26px,3.8vw,44px);
+    line-height:1.5;margin:0 0 22px;letter-spacing:.01em;
+  }
+  h1.hero-title .marker{
+    background:linear-gradient(transparent 64%, var(--c-primary) 64%, var(--c-primary) 90%, transparent 90%);
+    padding:0 4px;
+  }
+  h1.hero-title .coral{color:var(--c-coral)}
+  .hero-sub{
+    font-size:17px;color:var(--c-ink-soft);margin:0 0 30px;max-width:540px;
+    line-height:2;
+  }
+  .hero-points{
+    display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px;
+  }
+  .hero-point{
+    background:#fff;border:1px solid var(--c-line);
+    padding:10px 18px;border-radius:999px;font-weight:700;font-size:14px;
+    box-shadow:var(--shadow-sm);
+  }
+  .hero-point .ic{color:var(--c-coral);margin-right:4px;font-weight:900}
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:18px 32px;border-radius:999px;text-decoration:none;font-weight:800;
+    font-size:16px;transition:.2s;border:none;cursor:pointer;
+  }
+  .btn-primary{background:var(--c-coral);color:#fff;box-shadow:0 12px 28px rgba(255,127,107,.35)}
+  .btn-primary:hover{background:var(--c-ink);transform:translateY(-2px)}
+  .btn-ghost{background:#fff;color:var(--c-ink);border:2px solid var(--c-ink)}
+  .btn-ghost:hover{background:var(--c-ink);color:#fff}
+
+  .hero-visual-wrap{position:relative}
+  .hero-visual{
+    position:relative;aspect-ratio:4/5;
+    background:#fff;border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-md);overflow:hidden;
+    transform:rotate(-1.5deg);
+  }
+  .hero-visual img{width:100%;height:100%;object-fit:cover;object-position:center}
+  .hero-deco{
+    position:absolute;border-radius:50%;z-index:-1;
+  }
+  .hero-deco.d1{
+    width:140px;height:140px;background:var(--c-primary);opacity:.7;
+    top:-20px;right:-20px;
+  }
+  .hero-deco.d2{
+    width:90px;height:90px;background:var(--c-coral);opacity:.6;
+    bottom:30px;left:-30px;
+  }
+  .float-card{
+    position:absolute;left:-22px;bottom:30px;z-index:2;
+    background:#fff;border-radius:18px;padding:14px 20px;
+    box-shadow:var(--shadow-md);font-size:13px;font-weight:700;
+    display:flex;flex-direction:column;align-items:flex-start;
+    transform:rotate(2deg);
+  }
+  .float-card .label{color:var(--c-ink-soft);font-size:11px;letter-spacing:.1em}
+  .float-card .num{
+    font-family:"M PLUS Rounded 1c";font-size:24px;color:var(--c-ink);
+    line-height:1.2;
+  }
+  .float-card .num em{color:var(--c-coral);font-style:normal}
+
+  /* ===== Section common ===== */
+  section{padding:88px 0}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:10px;
+    color:var(--c-coral);font-weight:800;letter-spacing:.18em;
+    font-size:12.5px;margin-bottom:12px;text-transform:uppercase;
+  }
+  .eyebrow::before{
+    content:"";width:24px;height:2px;background:var(--c-coral);
+  }
+  h2.sec-title{
+    font-family:"M PLUS Rounded 1c";font-weight:800;
+    font-size:clamp(24px,3.3vw,38px);
+    line-height:1.5;margin:0 0 18px;
+  }
+  h2.sec-title .marker{
+    background:linear-gradient(transparent 64%, var(--c-primary) 64% 92%, transparent 92%);
+    padding:0 4px;
+  }
+  .sec-lead{color:var(--c-ink-soft);max-width:720px;margin:0 0 56px;font-size:16px;line-height:2}
+
+  /* ===== Starting Member ===== */
+  .starting{
+    background:linear-gradient(135deg,#2A3548 0%,#1A2335 100%);
+    color:#fff;padding:64px 0;
+  }
+  .starting-card{
+    text-align:center;
+  }
+  .starting-label{
+    display:inline-flex;align-items:center;gap:10px;
+    color:var(--c-primary);font-weight:800;letter-spacing:.18em;
+    font-size:13px;margin-bottom:16px;text-transform:uppercase;
+  }
+  .starting-label::before, .starting-label::after{
+    content:"";width:30px;height:2px;background:var(--c-primary);
+  }
+  .starting-title{
+    font-family:"M PLUS Rounded 1c";font-weight:800;
+    font-size:clamp(24px,3vw,36px);
+    line-height:1.55;margin:0 0 24px;color:#fff;
+  }
+  .starting-marker{
+    background:linear-gradient(transparent 64%, var(--c-coral) 64% 92%, transparent 92%);
+    padding:0 6px;color:#fff;
+  }
+  .starting-text{
+    font-size:16px;line-height:2;margin:0 auto;max-width:680px;color:#E5E8F0;
+  }
+  .starting-text strong{color:var(--c-primary)}
+  @media (max-width:860px){
+    .starting{padding:48px 0}
+  }
+
+  /* ===== Problem ===== */
+  .problem{background:var(--c-bg-soft)}
+  .problem-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:24px;
+  }
+  .problem-card{
+    background:#fff;border-radius:var(--radius-md);padding:30px 28px;
+    box-shadow:var(--shadow-sm);border:1px solid var(--c-line);
+    position:relative;
+  }
+  .problem-card .qmark{
+    position:absolute;top:-12px;left:24px;
+    background:var(--c-coral);color:#fff;
+    width:40px;height:40px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"M PLUS Rounded 1c";font-weight:900;font-size:18px;
+  }
+  .problem-card p{margin:14px 0 0;font-size:16px;font-weight:600}
+
+  /* ===== Strengths ===== */
+  .strength-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:24px;
+  }
+  .strength-card{
+    background:#fff;border-radius:var(--radius-lg);padding:40px 30px;
+    box-shadow:var(--shadow-sm);text-align:center;border:1px solid var(--c-line);
+    transition:.25s;position:relative;overflow:hidden;
+  }
+  .strength-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-md)}
+  .strength-card::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:6px;
+    background:linear-gradient(90deg,var(--c-primary),var(--c-coral));
+  }
+  .strength-icon{
+    width:80px;height:80px;border-radius:50%;
+    background:linear-gradient(135deg,var(--c-primary) 0%,var(--c-coral) 100%);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"M PLUS Rounded 1c";font-weight:900;font-size:30px;
+    margin:0 auto 20px;box-shadow:0 8px 20px rgba(248,181,0,.3);
+  }
+  .strength-card h3{
+    font-family:"M PLUS Rounded 1c";font-size:21px;margin:0 0 12px;line-height:1.5;
+  }
+  .strength-card p{margin:0;color:var(--c-ink-soft);font-size:15px;text-align:left;line-height:1.95}
+
+  /* ===== Message ===== */
+  .message-grid{
+    display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:center;
+  }
+  .message-visual{
+    border-radius:var(--radius-lg);overflow:hidden;
+    aspect-ratio:4/5;box-shadow:var(--shadow-md);
+    background:var(--c-bg-soft);position:relative;
+    transform:rotate(1.5deg);
+  }
+  .message-visual img{width:100%;height:100%;object-fit:cover}
+  .message-text p{margin:0 0 18px}
+  .name-origin{
+    background:#FFF6E5;border-left:6px solid var(--c-primary);
+    padding:18px 22px;border-radius:10px;margin:0 0 28px;
+  }
+  .name-origin-label{
+    display:inline-block;background:var(--c-ink);color:var(--c-primary);
+    font-size:11px;font-weight:800;letter-spacing:.12em;
+    padding:4px 12px;border-radius:999px;margin-bottom:10px;
+  }
+  .name-origin p{margin:0;font-size:14.5px;line-height:1.85;color:var(--c-ink)}
+  .name-origin strong{color:var(--c-primary-dark)}
+  .message-text .quote{
+    font-family:"M PLUS Rounded 1c";font-weight:800;font-size:24px;
+    line-height:1.7;color:var(--c-ink);
+    border-left:6px solid var(--c-coral);padding:8px 0 8px 22px;margin:0 0 28px;
+  }
+
+  /* ===== Persona ===== */
+  .persona{
+    background:linear-gradient(135deg,#FFF6E5 0%,#FFE5DE 100%);
+    position:relative;overflow:hidden;
+  }
+  .persona::before{
+    content:"";position:absolute;top:-100px;right:-100px;
+    width:300px;height:300px;border-radius:50%;
+    background:rgba(248,181,0,.15);
+  }
+  .persona::after{
+    content:"";position:absolute;bottom:-80px;left:-80px;
+    width:220px;height:220px;border-radius:50%;
+    background:rgba(255,127,107,.12);
+  }
+  .persona .container{position:relative}
+  .persona-grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:18px;
+  }
+  .persona-item{
+    background:#fff;border-radius:var(--radius-md);
+    padding:24px 26px;display:flex;align-items:center;gap:16px;
+    box-shadow:var(--shadow-sm);
+  }
+  .persona-check{
+    flex-shrink:0;width:38px;height:38px;border-radius:50%;
+    background:var(--c-coral);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:900;font-size:18px;
+  }
+  .persona-item p{margin:0;font-size:15.5px;font-weight:600;line-height:1.7}
+
+  /* ===== Day flow ===== */
+  .dayflow{background:#fff}
+  .timeline{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px;
+    position:relative;
+  }
+  .tl-item{
+    background:var(--c-bg);border-radius:var(--radius-md);padding:22px 16px;
+    text-align:center;border:1px solid var(--c-line);position:relative;
+  }
+  .tl-time{
+    display:inline-block;background:var(--c-ink);color:var(--c-primary);
+    font-family:"M PLUS Rounded 1c";font-weight:900;font-size:14px;
+    padding:5px 14px;border-radius:999px;margin-bottom:12px;
+  }
+  .tl-title{font-weight:700;font-size:15px;margin:0 0 6px}
+  .tl-desc{font-size:12.5px;color:var(--c-ink-soft);margin:0;line-height:1.7}
+
+  /* ===== Gallery ===== */
+  .gallery-section{background:var(--c-bg-soft)}
+  .gallery{
+    display:grid;grid-template-columns:repeat(6,1fr);
+    grid-auto-rows:140px;gap:14px;
+  }
+  .gallery figure{
+    margin:0;border-radius:var(--radius-md);overflow:hidden;
+    box-shadow:var(--shadow-sm);background:#fff;position:relative;
+  }
+  .gallery figure img{width:100%;height:100%;object-fit:cover;transition:.4s}
+  .gallery figure:hover img{transform:scale(1.05)}
+  .gallery .g-hero{grid-column:span 3;grid-row:span 2}
+  .gallery .g-tall{grid-column:span 2;grid-row:span 2}
+  .gallery .g-wide{grid-column:span 3;grid-row:span 1}
+  .gallery .g-small{grid-column:span 2;grid-row:span 1}
+
+  /* ===== Requirements ===== */
+  .req-wrap{background:#fff}
+  .req-table{
+    width:100%;background:#fff;border-radius:var(--radius-md);
+    overflow:hidden;box-shadow:var(--shadow-sm);
+    border-collapse:collapse;border:1px solid var(--c-line);
+  }
+  .req-table th,.req-table td{
+    text-align:left;padding:20px 26px;border-bottom:1px solid var(--c-line);
+    font-size:15px;vertical-align:top;
+  }
+  .req-table tr:last-child th,.req-table tr:last-child td{border-bottom:none}
+  .req-table th{
+    width:200px;background:#FFF6E5;font-weight:700;color:var(--c-ink);
+  }
+  .req-table td .hl{color:var(--c-coral);font-weight:900;font-size:20px;
+    font-family:"M PLUS Rounded 1c";
+  }
+  .req-table td .small{font-size:13px;color:var(--c-ink-soft);margin-top:4px;display:block}
+
+  /* ===== Steps ===== */
+  .steps{background:var(--c-bg-soft)}
+  .step-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:22px;
+  }
+  .step-card{
+    background:#fff;border-radius:var(--radius-md);padding:32px 24px;
+    box-shadow:var(--shadow-sm);border:1px solid var(--c-line);
+    position:relative;
+  }
+  .step-num{
+    position:absolute;top:-16px;left:24px;
+    background:var(--c-ink);color:var(--c-primary);
+    width:40px;height:40px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"M PLUS Rounded 1c";font-weight:900;font-size:17px;
+    box-shadow:var(--shadow-sm);
+  }
+  .step-card h4{font-family:"M PLUS Rounded 1c";font-size:18px;margin:18px 0 8px}
+  .step-card p{font-size:13.5px;color:var(--c-ink-soft);margin:0;line-height:1.8}
+
+  /* ===== Final CTA ===== */
+  .final{
+    background:linear-gradient(135deg,#FFC629 0%,#FF7F6B 100%);
+    color:var(--c-ink);text-align:center;position:relative;overflow:hidden;
+  }
+  .final::before{
+    content:"";position:absolute;top:-150px;right:-150px;
+    width:400px;height:400px;border-radius:50%;
+    background:rgba(255,255,255,.15);
+  }
+  .final::after{
+    content:"";position:absolute;bottom:-150px;left:-150px;
+    width:400px;height:400px;border-radius:50%;
+    background:rgba(255,255,255,.12);
+  }
+  .final .container{position:relative}
+  .final h2{
+    font-family:"M PLUS Rounded 1c";font-weight:900;
+    font-size:clamp(26px,3.5vw,40px);margin:0 0 18px;line-height:1.55;
+    color:#fff;
+  }
+  .final p{font-size:17px;margin:0 0 36px;font-weight:600;color:#fff}
+  .final .btn-primary{background:#fff;color:var(--c-coral);box-shadow:0 12px 28px rgba(0,0,0,.18)}
+  .final .btn-primary:hover{background:var(--c-ink);color:#fff;transform:translateY(-2px)}
+  .contact-box{
+    margin-top:40px;background:rgba(255,255,255,.95);border-radius:var(--radius-md);
+    padding:28px 36px;display:inline-block;text-align:left;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+  }
+  .contact-box .label{font-size:12px;letter-spacing:.12em;font-weight:700;color:var(--c-ink-soft)}
+  .contact-box .value{font-family:"M PLUS Rounded 1c";font-weight:800;font-size:22px;margin-top:4px;color:var(--c-ink)}
+
+  /* ===== Footer ===== */
+  footer.site{
+    background:var(--c-ink);color:#cbd1d8;padding:52px 0 32px;font-size:13.5px;
+  }
+  footer .foot-grid{
+    display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:start;
+  }
+  footer .footer-logo{
+    width:80px;height:auto;margin-bottom:14px;
+    filter:brightness(0) invert(1);
+    opacity:.9;
+  }
+  footer .brand-foot{color:#fff;font-family:"M PLUS Rounded 1c";font-weight:800;font-size:19px;margin-bottom:10px}
+  footer address{font-style:normal;line-height:1.95}
+  footer .footer-hp-btn{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--c-primary);color:var(--c-ink);
+    padding:10px 18px;border-radius:999px;
+    font-weight:800;font-size:13px;text-decoration:none;
+    transition:.2s;
+  }
+  footer .footer-hp-btn:hover{background:var(--c-coral);color:#fff;transform:translateY(-2px)}
+  footer .copy{margin-top:36px;border-top:1px solid #3B4558;padding-top:20px;color:#7d8694;font-size:12px}
+
+  /* ===== Responsive ===== */
+  @media (max-width:860px){
+    section{padding:64px 0}
+    .hero{padding:18px 0 36px}
+    .hero-grid{grid-template-columns:1fr;gap:20px}
+    .hero-visual-wrap{order:-1}
+    .hero-visual{aspect-ratio:4/3;max-width:340px;margin:0 auto;transform:rotate(0deg)}
+    .hero-visual img{object-position:center 25%}
+    h1.hero-title{font-size:clamp(22px,5.5vw,30px);margin:0 0 14px}
+    .hero-sub{font-size:14.5px;margin:0 0 18px}
+    .hero-points{margin-bottom:20px}
+    .hero-point{font-size:12.5px;padding:6px 12px}
+    .float-card{left:auto;right:-10px;bottom:-10px;padding:10px 14px}
+    .float-card .num{font-size:18px}
+    .problem-grid{grid-template-columns:1fr}
+    .strength-grid{grid-template-columns:1fr;gap:16px}
+    .message-grid{grid-template-columns:1fr;gap:36px}
+    .message-visual{transform:rotate(0deg);max-width:380px;margin:0 auto}
+    .timeline{grid-template-columns:repeat(2,1fr)}
+    .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:180px}
+    .gallery .g-hero,.gallery .g-tall,.gallery .g-wide,.gallery .g-small{
+      grid-column:span 1;grid-row:span 1;
+    }
+    .gallery .g-hero{grid-column:span 2;grid-row:span 2}
+    .persona-grid{grid-template-columns:1fr}
+    .step-grid{grid-template-columns:1fr 1fr}
+    .req-table th{width:120px;padding:14px 14px;font-size:13px}
+    .req-table td{padding:14px 14px;font-size:14px}
+    footer .foot-grid{grid-template-columns:1fr}
+  }
+  @media (max-width:480px){
+    .timeline{grid-template-columns:1fr}
+    .step-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="site">
+  <div class="container nav">
+    <div class="brand">HOPE <span class="dot">Cotoco</span><span style="font-size:12px;color:#9aa3b3;font-weight:600;margin-left:6px">コトコ</span></div>
+    <a href="#entry" class="nav-cta">▶ エントリー</a>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">スターティングメンバー募集</span>
+      <h1 class="hero-title">
+        <span class="coral">子育て経験は、</span><br>
+        ブランクじゃなく<br>
+        <span class="marker">看護師の強み</span>になる。
+      </h1>
+      <p class="hero-sub">
+        不登校、引きこもり、情緒や発達に困難をかかえる子どもたちへ。<br>
+        さいたま市浦和区の小児訪問看護ステーションで、<br>
+        あなたの「お母さんとしての視点」を活かしませんか。
+      </p>
+      <div class="hero-points">
+        <span class="hero-point"><span class="ic">●</span>日勤のみ 9–18時</span>
+        <span class="hero-point"><span class="ic">●</span>土日祝休み</span>
+        <span class="hero-point"><span class="ic">●</span>オンコールなし</span>
+        <span class="hero-point"><span class="ic">●</span>基本給28万円〜</span>
+      </div>
+      <div class="cta-row">
+        <a href="#entry" class="btn btn-primary">▶ 応募・お問い合わせ</a>
+        <a href="#about" class="btn btn-ghost">まずは話を聞いてみる</a>
+      </div>
+    </div>
+
+    <div class="hero-visual-wrap">
+      <div class="hero-deco d1"></div>
+      <div class="hero-deco d2"></div>
+      <div class="hero-visual">
+        <img src="images/hero-emotion.jpg" alt="子どもと向き合う訪問看護師">
+      </div>
+      <div class="float-card">
+        <span class="label">月給</span>
+        <span class="num"><em>28</em>万円〜</span>
+        <span class="label" style="margin-top:6px">＋インセンティブ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Starting Member ===== -->
+<section class="starting">
+  <div class="container">
+    <div class="starting-card">
+      <span class="starting-label">STARTING MEMBER</span>
+      <h2 class="starting-title">風土から、<br><span class="starting-marker">一緒につくる仲間を募集します。</span></h2>
+      <p class="starting-text">
+        私たちは今、<strong>立ち上げのスターティングメンバー</strong>を募集しています。<br>
+        ルールも、関わり方も、チームの空気も、これからつくっていく段階。<br>
+        「やらされる仕事」じゃなく、<strong>「自分たちでつくる仕事」</strong>を、一緒に始めませんか。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Problem ===== -->
+<section class="problem">
+  <div class="container">
+    <span class="eyebrow">FOR YOU</span>
+    <h2 class="sec-title">こんな気持ち、<br><span class="marker">ありませんか？</span></h2>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="qmark">？</div>
+        <p>子育てが落ち着いてきたから、そろそろまた看護の現場に戻りたい。でもブランクが不安……。</p>
+      </div>
+      <div class="problem-card">
+        <div class="qmark">？</div>
+        <p>夜勤やオンコールは、もう体力的にきつい。家族との時間も大切にしながら働きたい。</p>
+      </div>
+      <div class="problem-card">
+        <div class="qmark">？</div>
+        <p>「処置」だけじゃなく、人と深く向き合う看護がしたい。とくに子どもに関わる仕事に興味がある。</p>
+      </div>
+      <div class="problem-card">
+        <div class="qmark">？</div>
+        <p>自分の子育て経験を、誰かの役に立てるようなかたちで活かせたら、もっと働く意味を感じられそう。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Strengths ===== -->
+<section>
+  <div class="container">
+    <span class="eyebrow">OUR STRENGTHS</span>
+    <h2 class="sec-title">私たちの<span class="marker">3つの約束</span></h2>
+    <p class="sec-lead">
+      子育てを経験した看護師さんが、無理なく長く活躍できる。そのために整えていることです。
+    </p>
+    <div class="strength-grid">
+      <div class="strength-card">
+        <div class="strength-icon">01</div>
+        <h3>「ブランク」じゃなく<br>「キャリア」になる</h3>
+        <p>子育てで現場を離れていた時間は、私たちにとって大切な経験値です。お母さんとしての視点や、子どもへの自然な関わり方は、医療従事者として最高のスキルになります。</p>
+      </div>
+      <div class="strength-card">
+        <div class="strength-icon">02</div>
+        <h3>家庭が安定する<br>働き方を本気で</h3>
+        <p>勤務は9:00〜18:00の日勤のみ。土日祝はしっかり休み、<strong>オンコール一切なし</strong>。<strong>直行直帰もOK</strong>なので、お子さんの送り迎えや学校行事にも、無理なく対応できる環境です。</p>
+      </div>
+      <div class="strength-card">
+        <div class="strength-icon">03</div>
+        <h3>はじめてでも安心の<br>研修サポート</h3>
+        <p>不登校や発達特性のあるお子さんへの関わりは、経験豊富な看護師さんでも未経験の方がほとんど。だからこそ<strong>研修制度を整備</strong>。先輩スタッフとの同行訪問から始めるので、安心してスタートできます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Message ===== -->
+<section id="about" style="background:var(--c-bg-soft)">
+  <div class="container">
+    <div class="message-grid">
+      <div class="message-visual">
+        <img src="images/play-blocks.jpg" alt="子どもと遊びを通して関わる訪問看護">
+      </div>
+      <div class="message-text">
+        <span class="eyebrow">OUR MISSION</span>
+        <h2 class="sec-title">「学校に行けない子」も、<br>「言葉にできない子」も、<br><span class="marker">一人ぼっちにしない。</span></h2>
+        <div class="name-origin">
+          <span class="name-origin-label">事業所名の由来</span>
+          <p><strong>Cotoco（コトコ）</strong> ── 「<strong>Co</strong>（共に・一緒に）」＋「<strong>歩</strong>（とこ・トコトコ歩く）」。<br>子どもたちがトコトコ歩む道のりを、一緒に伴走していくイメージから名付けました。</p>
+        </div>
+        <p class="quote">あなたの「お母さん力」を、待っている子がいます。</p>
+        <p>
+          私たちが訪問するのは、不登校や引きこもりで家から出られなくなった子。
+          情緒の起伏に困難をかかえている子。発達特性とともに、自分らしい関わり方を探している子。
+        </p>
+        <p>
+          そんな子どもたちの家へ伺い、看護師として、ときには「ひとりの大人」として、対話と遊びを通じてゆっくり関係をつくっていきます。
+          医療的な処置や重い介護ケアは多くありません。だからこそ、看護師としての知識に加えて、
+          <strong>子育てを経験した方の「肌感覚」が、何より頼りになる</strong>仕事です。
+        </p>
+        <p>
+          子どもの目線で、家族の気持ちに寄り添える。それは、長年お子さんと向き合ってきたあなたの中に、すでにある力です。
+          一度現場を離れたからこそ届けられる看護を、ここで一緒に届けませんか。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Persona ===== -->
+<section class="persona">
+  <div class="container">
+    <span class="eyebrow">WE ARE LOOKING FOR YOU</span>
+    <h2 class="sec-title">こんな方を、<span class="marker">お待ちしています</span></h2>
+    <p class="sec-lead">一つでも当てはまったら、ぜひ一度お話を聞かせてください。</p>
+    <div class="persona-grid">
+      <div class="persona-item"><span class="persona-check">✓</span><p>子育てがひと段落して、また看護の現場に戻りたい方</p></div>
+      <div class="persona-item"><span class="persona-check">✓</span><p>夜勤・オンコールから卒業して、日勤で長く働きたい方</p></div>
+      <div class="persona-item"><span class="persona-check">✓</span><p>子育てを経験した自分だからできる看護を探している方</p></div>
+      <div class="persona-item"><span class="persona-check">✓</span><p>不登校や発達に困難をかかえる子どもに関心がある方</p></div>
+      <div class="persona-item"><span class="persona-check">✓</span><p>処置中心ではなく「対話」中心の看護にやりがいを感じる方</p></div>
+      <div class="persona-item"><span class="persona-check">✓</span><p>家族との時間を大切にしながら、社会との接点も持ちたい方</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== A day ===== -->
+<section class="dayflow">
+  <div class="container">
+    <span class="eyebrow">A DAY OF WORK</span>
+    <h2 class="sec-title">ある<span class="marker">1日の流れ</span></h2>
+    <p class="sec-lead">
+      基本は<strong>直行直帰OK</strong>。火曜のみ事業所でチームカンファレンスを行います。残業は最小限で、お子さんの送り迎えや学校行事にも対応しやすい働き方です。
+    </p>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-time">9:00</span>
+        <p class="tl-title">業務開始</p>
+        <p class="tl-desc">最初の訪問先へ直行OK。<br>朝礼はオンラインで参加。</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">10:00</span>
+        <p class="tl-title">午前の訪問</p>
+        <p class="tl-desc">不登校のお子さんのご家庭へ。<br>会話や遊びから関わります。</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">12:30</span>
+        <p class="tl-title">昼休憩</p>
+        <p class="tl-desc">事業所でランチ。スタッフ同士で雑談する時間。</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">13:30</span>
+        <p class="tl-title">午後の訪問</p>
+        <p class="tl-desc">情緒・発達面のサポートが必要なお子さんを訪問。</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">17:00</span>
+        <p class="tl-title">業務終了</p>
+        <p class="tl-desc">最終訪問先から直帰OK。<br><strong>火曜のみ事業所でカンファレンス</strong>（1時間）。</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-time">18:00</span>
+        <p class="tl-title">業務完了</p>
+        <p class="tl-desc">お疲れさまでした。<br>ご家族のもとへ。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<section class="gallery-section">
+  <div class="container">
+    <span class="eyebrow">PHOTO</span>
+    <h2 class="sec-title">現場の<span class="marker">空気感</span></h2>
+    <p class="sec-lead">
+      子どもたちと、ゆっくり、丁寧に。私たちの仕事の風景をのぞいてみてください。
+    </p>
+    <div class="gallery">
+      <figure class="g-hero"><img src="images/hero-emotion.jpg" alt="感情カードで関わる"></figure>
+      <figure class="g-tall"><img src="images/play-blocks.jpg" alt="ブロックを通した関わり"></figure>
+      <figure class="g-small"><img src="images/staff-yellow.jpg" alt="スタッフ"></figure>
+      <figure class="g-small"><img src="images/with-child-arcade.jpg" alt="お子さんとの時間"></figure>
+      <figure class="g-wide"><img src="images/outdoor-family.jpg" alt="屋外でのひととき"></figure>
+      <figure class="g-wide"><img src="images/family-care.jpg" alt="ご家族と一緒に"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Requirements ===== -->
+<section class="req-wrap">
+  <div class="container">
+    <span class="eyebrow">REQUIREMENTS</span>
+    <h2 class="sec-title"><span class="marker">募集要項</span></h2>
+    <p class="sec-lead">気になる点はお気軽にお問い合わせください。</p>
+    <table class="req-table">
+      <tbody>
+        <tr><th>職種</th><td>訪問看護師（正看護師・准看護師）</td></tr>
+        <tr><th>雇用形態</th><td>正社員</td></tr>
+        <tr>
+          <th>給与</th>
+          <td>
+            <span class="hl">月給 280,000円〜</span>＋インセンティブ
+            <span class="small">※インセンティブは訪問件数に応じて支給。経験・実績により応相談。</span>
+          </td>
+        </tr>
+        <tr><th>勤務時間</th><td>9:00〜18:00（休憩60分／日勤のみ／<strong>オンコール一切なし</strong>／<strong>直行直帰OK</strong>）</td></tr>
+        <tr><th>休日・休暇</th><td>土日祝／夏季休暇・冬季休暇／有給休暇／育児休暇／介護休暇／慶弔休暇 ほか</td></tr>
+        <tr><th>勤務地</th><td>HOPE Cotoco（コトコ）<br>埼玉県さいたま市浦和区瀬ケ崎1-3-4　コーポ翡翠201</td></tr>
+        <tr><th>業務内容</th><td>不登校・引きこもり・情緒や発達に困難をかかえるお子さんへの訪問看護<br>（医療的処置は最小限／対話・遊びを通した関わりが中心）</td></tr>
+        <tr><th>応募資格</th><td>正看護師または准看護師の資格をお持ちの方／普通自動車運転免許（AT可）<br><strong>※訪問看護未経験・ブランクのある方も歓迎</strong></td></tr>
+        <tr><th>福利厚生</th><td>各種社会保険完備／交通費支給／<strong>充実の研修制度（同行訪問・小児/発達ケア研修）</strong>／制服貸与</td></tr>
+        <tr><th>選考</th><td>書類選考 → カジュアル面談（事業所見学可） → 内定</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== Steps ===== -->
+<section class="steps">
+  <div class="container">
+    <span class="eyebrow">FLOW</span>
+    <h2 class="sec-title">応募の<span class="marker">流れ</span></h2>
+    <p class="sec-lead">まずは「話を聞いてみたい」だけでも大丈夫です。</p>
+    <div class="step-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h4>お問い合わせ</h4>
+        <p>下のフォーム、または電話・メールよりご連絡ください。</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h4>カジュアル面談</h4>
+        <p>事業所見学＆雰囲気を見るだけの面談からOK。お子さん連れもご相談ください。</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h4>選考面談</h4>
+        <p>働き方や条件を、納得いくまですり合わせます。</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <h4>内定・入職</h4>
+        <p>入職日・引き継ぎ期間など、ご家庭の事情に合わせて柔軟に。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Final CTA ===== -->
+<section class="final" id="entry">
+  <div class="container">
+    <h2>あなたの「子育ての経験」を<br>必要としている子がいます。</h2>
+    <p>履歴書はまだ要りません。まずは話を聞きに来てください。</p>
+    <div class="cta-row" style="justify-content:center">
+      <a href="mailto:matsuoka@hope-saitama.com?subject=訪問看護師募集の件" class="btn btn-primary">▶ メールで応募・問い合わせ</a>
+    </div>
+    <div class="contact-box">
+      <div class="label">CONTACT</div>
+      <div class="value">matsuoka@hope-saitama.com</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site">
+  <div class="container foot-grid">
+    <div>
+      <img class="footer-logo" src="images/hope-logo-transparent.png" alt="株式会社HOPE">
+      <div class="brand-foot">HOPE Cotoco <span style="font-size:13px;color:#9aa3b3;font-weight:600">コトコ</span></div>
+      <address>
+        埼玉県さいたま市浦和区瀬ケ崎1-3-4　コーポ翡翠201<br>
+        Email：matsuoka@hope-saitama.com
+      </address>
+    </div>
+    <div>
+      <div style="color:#fff;font-weight:700;margin-bottom:8px">事業内容</div>
+      <p style="margin:0 0 16px">小児訪問看護（不登校・情緒・発達のサポート）</p>
+      <a href="https://www.hope-saitama.com/" target="_blank" rel="noopener" class="footer-hp-btn">
+        🌐 株式会社HOPE 公式サイトへ
+      </a>
+    </div>
+  </div>
+  <div class="container copy">
+    © HOPE Cotoco（コトコ）. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
+           
